@@ -60,13 +60,11 @@ cask "displaylink" do
               "73YQY62QM3.com.displaylink.DisplayLinkAPServer",
               "com.displaylink.displaylinkmanager",
               "com.displaylink.useragent",
-              "com.displaylink.useragent-prelogin",
             ],
             quit:      "DisplayLinkUserAgent",
             pkgutil:   "com.displaylink.*",
             delete:    [
               "/Applications/DisplayLink",
-              "/Library/LaunchAgents/com.displaylink.useragent-prelogin.plist",
               "/Library/LaunchAgents/com.displaylink.useragent.plist",
               "/Library/LaunchDaemons/com.displaylink.displaylinkmanager.plist",
             ]
